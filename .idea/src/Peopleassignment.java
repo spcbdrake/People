@@ -36,6 +36,7 @@ public class Peopleassignment {
 
 
     static String readFile(String fileName) {
+
         File f = new File(fileName);
         try {
             FileReader fr = new FileReader(f);
